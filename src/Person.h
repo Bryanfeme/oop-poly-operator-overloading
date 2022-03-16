@@ -15,12 +15,13 @@ using namespace std;
  */
 class Person {
 private:
+    /*Atributo*/
     string text;
 public:
+    /*Gets y Sets*/
     const string &getText() const;
 
     void setText(const string &text);
-
 public:
     /**
      * Basic Constructor
@@ -41,6 +42,12 @@ public:
     /**
      * The operator Method
      * Customizes the C++ operators for operands of user-defined types.
+     * https://en.cppreference.com/w/cpp/language/operators
+     * @param person
+     */
+    /**
+     * El método operator
+     * Personaliza los operadores de C++ para operandos de tipos definidos por el usuario.
      * https://en.cppreference.com/w/cpp/language/operators
      * @param person
      */
